@@ -1,0 +1,50 @@
+
+body{
+    background-color:bisque;
+}
+h2{
+    background-color: palevioletred;
+}
+
+.title{
+    font-size: 2em;
+    color: rgb(37, 3, 3);
+}
+#principal{
+font-size: 4em;
+text-align: center;
+}
+.logo{
+    width: 20em;
+    height: 20em;
+    margin: 5px;
+}
+.cards{
+    border: 1px dotted brown;
+    width: fit-content;
+    height: fit-content;
+    padding: 2px 2em 2px 2em;
+    border-radius: 3px ;
+    transition: 1s;
+
+}
+.cards:hover{
+    background-color: palevioletred;
+}
+#titulos{
+    border: 5px solid;
+    color: rgb(224, 167, 167);
+    width: 65em;
+    margin: auto;
+    padding: 2em;
+}
+#contenedor{
+    width: 85em;
+    height: 85em;
+    margin: auto;
+    margin-top: 3em;
+    border-radius: 2px;
+    padding: 3em;
+    display: flex;
+    flex-direction: row;
+}
